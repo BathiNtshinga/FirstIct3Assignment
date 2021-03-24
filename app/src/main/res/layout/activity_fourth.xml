@@ -34,7 +34,22 @@
         app:layout_constraintVertical_bias="0.408"
         tools:ignore="MissingConstraints" />
 
-
-
+    <EditText
+        android:id="@+id/editText"
+        style="@style/Widget.MaterialComponents.TextInputEditText.FilledBox"
+        android:layout_width="187dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/button"
+        android:layout_alignTop="@id/button"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints,NotSibling"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="138dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
